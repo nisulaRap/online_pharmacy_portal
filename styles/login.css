@@ -1,0 +1,110 @@
+/*----Login page php file----*/
+body {
+    background-image: url("../images/img-1.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.username,
+.password {
+    width: 85%;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me label {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sign-in {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.account{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sign-up{
+    color: white;
+}
+.signup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Sign-up{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.footer-links a + a::before {
+    content: " | ";
+    margin: 0 5px;
+    color: #ccc;
+}
+
+.L1{
+    height: 30px;
+	padding-left:4px;
+	padding-top:4px;
+}

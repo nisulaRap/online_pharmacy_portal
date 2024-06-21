@@ -1,0 +1,318 @@
+/*----Header php file----*/
+*{
+	padding:0;
+	margin:0;
+}
+
+.searchside{
+    display: flex;
+    background-color: lightcyan;
+	position: relative;
+}
+
+.img{
+    padding-top: 5px;
+}
+
+.img2{
+	padding-left: 20px;
+}
+
+.search{
+    padding-left: 180px;
+    padding-top: 10px;
+    padding-right: 160px;
+}
+
+/*Search box*/
+.inp1{
+	width:360px;
+	padding:6px 10px;
+	border-radius:100px;
+	border:1px solid grey;
+	margin-top:5px;
+    font-size: 16px;
+}
+
+/*Search button*/
+.subbtn{
+	border: 2px solid DimGray;
+	background-color: Gray;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:100px;
+	padding:2px 10px;
+}
+
+/*Set Sign in and My Account*/
+.rightside{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+/*menu bar*/
+nav{
+	background:rgb(85, 83, 83);
+	height:60px;
+	width:100%;
+	margin-top: -20px;
+}
+
+nav ul{
+	float:right;
+	margin-right:20px;
+}
+
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color:white;
+	font-size:17px;
+	padding:7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+ul li a:hover{
+	color:lightgrey;
+}
+
+.dropbtn { 
+	font-family:montserrat;
+	font-size:16px;
+	border: none;
+	color: white;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: inherit;
+	padding-top:-10px;
+}
+		
+.dropdown:hover .dropbtn {
+	color:lightgrey;
+}
+		
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	margin-left:20px;
+	display: none;
+	position: absolute;
+	background-color:lightgrey;
+	min-width: 300px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+/*----Footer php file----*/
+.box1{
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.d1{
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.d2{
+	padding-left: 250px;;
+}
+
+.d3{
+	padding-left: 125px;
+	padding-top: 20px;
+}
+
+.d4{
+	padding-top: 5px;
+	padding-left: 120px;
+}
+
+.d5{
+	padding-left: 90px;
+	padding-right: 60px;
+}
+
+.d6{
+	padding-left: 320px;
+	padding-right: 60px;
+}
+
+.d7{
+	padding-bottom: 20px;
+}
+
+.d8{
+	padding-left: 110px;
+}
+
+.d9{
+	padding-left: 12px;
+}
+
+.span1{
+	padding-left: 20px;
+}
+
+.df{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+hr{
+	border: 2px solid black;
+	position: none;
+}
+
+.subbtn2{
+	border: 2px solid DimGray;
+	background-color: black;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:5px;
+	padding:4px 20px;
+}
+
+footer{
+	border: 1px solid black;
+	background-color:rgb(63, 58, 58);
+	max-width: 100%;
+	height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: white;	
+	margin-top: auto;
+	margin-bottom: -10px;
+	padding-top: 4px;
+}
+
+
+/*----User Account page php file----*/
+.useraccountbg{
+	background-image: url(../images/bg1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.img3{
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: lightgoldenrodyellow;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	float: left;
+	position: absolute;
+}
+
+.form1{
+	margin-left: 340px;
+	width: 940px;
+	padding-left: 25px;
+	padding-top: 20px;
+	border-radius: 10px;
+	background-color: rgb(248, 209, 215);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form2{
+	margin-left: 340px;
+	width: 940px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 25px;
+	padding-top: 20px;
+	border-radius: 10px;
+	background-color: rgb(248, 209, 215);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form3{
+	margin-left: 650px;
+	margin-bottom: 20px;
+}
+
+.f1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.f2{
+	font-size: 16px;
+}
+
+.r1{
+	padding-bottom: 15px;
+}
+
+.r2{
+	padding-bottom: 15px;
+}
+
+.r3{
+	margin-top: 10px;
+	height: 25px;
+}
+
+.r4{
+	height: 25px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.r5{
+	width: 250px;
+	height: 25px;
+	padding: 2px 6px 2px 4px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+
+.r6{
+	padding-top: 260px;
+	padding-left: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	position: absolute;
+}
+
+.r7{
+	margin-left: 20px;
+}
+
+h2{
+	padding-left: 50px;
+	padding-top: 20px;
+}

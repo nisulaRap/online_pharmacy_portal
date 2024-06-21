@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.btvalue
+{
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+	padding-left:4px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+.btn2{
+  color: black;
+  border: 2px solid DimGray;
+  background-color: black;
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:5px;
+  padding:4px 20px;
+}
+
+.t1{
+	padding-bottom:20px;
+	padding-right:20px;
+	font-weight:bold;
+}
+
+.t2{
+	padding-bottom:20px;
+}
+  
+.p1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size :medium ; 
+    margin: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.p2
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size :medium ; 
+  margin: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+h2
+{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+  margin-top: 20;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size :medium ; 
+  margin: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.tb1{
+  font-size:medium;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px; 
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  background-color: lightblue;
+}
+
+.tab1{
+  background-image:url(../images/ContactUs.jpg);
+  background-repeat:no-repeat ;
+  background-size:cover ;
+}
+.tab2{
+  background-image:url(../images/CustomerServies.jpg);
+  background-repeat:no-repeat ;
+  background-size:cover ;
+
+}
+.tab3
+{
+  background-image:url(../images/privacyPolicy.jpg);
+  background-repeat:no-repeat ;
+  background-size:cover ;
+
+}
+iframe:focus {
+  outline: none;
+}
+
+.lct{
+	position: absolute;
+	margin-top:-480px;
+	margin-left:640px;
+}
+
+
