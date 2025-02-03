@@ -11,7 +11,8 @@ Health Mart is a web-based application designed to provide a convenient platform
 - Order Management: Track and manage your orders.
 - Easy Payment Options: Use secure payment gateways for smooth transactions.
 - User Profile: View and edit personal details, manage orders, and track history.
-- Search : Search for medications based on name, category.
+- Search: Search for medications based on name, category.
+- Admin Panel: Admins can manage the products, track orders, and update product information.
   
 ## Technologies Used
 - HTML: Used for the structure and content of the website.
