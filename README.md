@@ -18,4 +18,5 @@ Health Mart is a web-based application designed to provide a convenient platform
 - CSS: For styling and responsive design.
 - JavaScript: For client-side interactions and dynamic features.
 - PHP: Server-side scripting for form handling, login/logout functionality, and database interactions.
-- SQL: MySQL database for storing user and product data.
+- Database: MariaDB (MySQL) for storing user and product data.
+- Server: XAMPP Server
